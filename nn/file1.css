@@ -1,0 +1,181 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.navbar{
+    height: 120px;
+    width: 100%;
+    background-color:black;
+    display: block;
+}
+
+h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+   
+}
+.heading > b,h2{
+    font-size:35px;
+}
+b{
+    color: greenyellow;
+}
+
+.logo{
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    background-image: url(/logo.png);
+    background-size:cover;
+    scale: 1;
+    border-radius: 50%  ;
+    margin-left:1rem;
+    margin-top: 10px;
+}   
+
+.menu2{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    margin-left: 63%;
+    margin-top: 2rem;
+    height: fit-content;
+    cursor: pointer;
+}
+.m1{
+    display: block;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    height: fit-content;
+   
+}
+
+
+
+
+@media screen and (300px <= width <=600px){
+
+.menu2{
+    display: none;
+}    
+ 
+.menu{
+    position: absolute;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-left: 80%;
+    cursor: pointer;
+}
+ 
+.navbar{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    margin-top: -10px;    
+    display:block;
+   
+}
+.logo{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url(/logo.png);
+    background-size:cover;
+    scale: 1;
+    border-radius: 50%  ;
+    margin-left:1rem;
+    margin-top: 1.5rem;
+}   
+.heading{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 5rem;
+   
+}
+.m12{
+    font-size: ;
+    margin: 20px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.menuactive1{
+    display: inline;
+    position: fixed;
+    height: 220px;
+    width: 100px;
+    background-color: black;
+    margin-top: 20%;
+    margin-left: 77%;
+    animation: mymove 0.2s all ease-in;
+}
+@keyframes mymove {
+
+    from {height: 0px;}
+    to{  height: 250px; !important;}
+}
+
+.m121.m122.m123.m124.m125{
+    display: none;
+   
+}
+
+.menuactive1 >#t1{cursor: pointer;transition: all ease 1s;}
+.menuactive1 >#t1:hover{scale: 1.2;}
+.menuactive1 >#t2{cursor: pointer;transition: all ease 1s;}
+.menuactive1 >#t2:hover{scale: 1.2;}
+.menuactive1 >#t3{cursor: pointer;transition: all ease 1s;}
+.menuactive1 >#t3:hover{scale: 1.2;}
+.menuactive1 >#t4{cursor: pointer;transition: all ease 1s;}
+.menuactive1 >#t4:hover{scale: 1.2;}
+.menuactive1 >#t5 {color: greenyellow;cursor: pointer;transition: all ease 1s;}
+.menuactive1 >#t5:hover{scale: 1.2;}
+.collab{
+    display: none;
+}
+
+.banner{
+  
+    height: 212px;
+    width: 100%;
+    background-color: #0c0c0c;
+    background-image: url(/banner1.jpg);
+    background-size: cover;
+    background-size: 90ch;
+}
+
+.banner2{
+    display:none;
+}
+
+h4{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+/*  mobile view work only  */
+
+}
+
+
+.banner2{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    background-image: url(/banner1.jpg);
+    background-size: cover;
+}
